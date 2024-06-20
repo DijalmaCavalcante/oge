@@ -1,0 +1,12 @@
+.header {
+  min-width: 1440px;
+  background-color: var(--color-grey-high);
+  padding: var(--spacing_inset-nano);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 8px 18px 0px green;
+}
+
+.header__logo {
+  width: 55px;
+}

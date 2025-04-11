@@ -1,13 +1,45 @@
-# React + Vite
+# OGE — Organization Games Entertainment 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**OGE** (Organization Games Entertainment) é um projeto em andamento com o objetivo de oferecer **ferramentas práticas e divertidas para jogos**, ideal para momentos de lazer com amigos e família. Este site não é para jogar diretamente, mas sim para **organizar melhor as brincadeiras** com recursos úteis e interativos.
 
-Currently, two official plugins are available:
+## ✨ Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Facilitar e deixar mais divertida a organização de jogos presenciais com ferramentas digitais simples.
 
-## Expanding the ESLint configuration
+## 🧰 Funcionalidades (em desenvolvimento)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# oge
+### 🧑‍🤝‍🧑 Montador de Times
+Ferramenta para:
+- Inserir nomes dos participantes
+- Definir quantos times serão formados
+- Sortear os times automaticamente
+
+**Futuramente:**
+- Atribuir um nível de habilidade a cada jogador para montar times equilibrados
+
+### 🔊 Painel de Sons para "Cidade Dorme"
+Uma mesa de som digital com áudios como:
+- Detetive
+- Cidade Dorme
+- Cidade Acorda
+- Anjo
+- Assassino
+
+Ideal para facilitar a condução da brincadeira sem precisar narrar tudo manualmente.
+
+## 🛠️ Tecnologias
+
+- [React](https://reactjs.org/) – para criação da interface interativa
+- [Cloudflare Pages](https://pages.cloudflare.com/) – para hospedagem do site
+
+## 🚧 Status
+
+Este projeto está em fase inicial de desenvolvimento. Funcionalidades básicas estão sendo implementadas primeiro, com planos de expansão contínua.
+
+## 🌐 Deploy
+
+Assim que algumas funcionalidades estiverem prontas, o site será publicado usando Cloudflare Pages.
+
+## 💡 Contribuição
+
+Ideias de novas ferramentas são bem-vindas! O foco do projeto é a **diversão e organização**, então toda sugestão que torne os jogos mais práticos ou engraçados pode virar uma feature.

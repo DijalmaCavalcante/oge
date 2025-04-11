@@ -1,4 +1,4 @@
-import image from '../assets/cidade_dorme.jpg'
+import image from '../assets/cidade_dorme_background.jpg'
 import './style.css'
 
 function component () {

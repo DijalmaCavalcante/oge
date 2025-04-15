@@ -1,7 +1,7 @@
 function component () {
   return (
     <div>
-      
+      teste
     </div>
   )
 }

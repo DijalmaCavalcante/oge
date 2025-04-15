@@ -16,4 +16,5 @@ a {
   justify-content: center;
   width: 100%;
   padding-top: var(--spacing_inset-md);
+  flex-direction: row;
 }

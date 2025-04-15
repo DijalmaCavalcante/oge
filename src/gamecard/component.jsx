@@ -1,15 +1,15 @@
-import image from '../assets/cidade_dorme_background.jpg'
+import { Link } from 'react-router-dom'
 import './style.css'
 
-function component () {
+function GameCard({ name, image, link }) {
   return (
-    <a href="">
+    <Link to={link || '#'}>
       <div className="gamecard">
-        <img src={image} className="gamecard__background" />
-        <p className="gamecard__name">Cidade Dorme</p>
+        <img src={image} className="gamecard__background" alt={name} />
+        <p className="gamecard__name">{name}</p>
       </div>
-    </a>
+    </Link>
   )
 }
 
-export default component
+export default GameCard

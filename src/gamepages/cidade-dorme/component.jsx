@@ -1,8 +1,8 @@
+import Header from '@elements/componentes/header'
+
 function component () {
   return (
-    <div>
-      teste
-    </div>
+    <Header />
   )
 }
 

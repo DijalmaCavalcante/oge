@@ -1,4 +1,4 @@
-import GameCard from '../gamecard/component.jsx';
+import GameCard from '../gamecard';
 import games from './games.js';
 import './style.css'
 

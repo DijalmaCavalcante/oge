@@ -1,8 +1,11 @@
 import Header from '@elements/componentes/header'
+import './style.css'
 
 function component () {
   return (
-    <Header />
+    <section className="header">
+      <Header />
+    </section>
   )
 }
 

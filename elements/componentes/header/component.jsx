@@ -1,7 +1,9 @@
+import "./style.css"
+
 function component () {
   return (
     <header>
-      teste
+      OGE
     </header>
   )
 }

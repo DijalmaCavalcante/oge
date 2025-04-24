@@ -1,4 +1,17 @@
+.gamelist {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .gamelist__container {
   display: flex;
   gap: var(--spacing_inset-md);
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: var(--spacing_inset-lg) 0;
+  overflow-y: auto;
+  flex-grow: 1;
 }

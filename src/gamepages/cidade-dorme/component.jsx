@@ -3,8 +3,8 @@ import './style.css'
 
 function component () {
   return (
-    <section className="header">
-      <Header />
+    <section className="cidadedorme">
+      <Header back="true" />
     </section>
   )
 }

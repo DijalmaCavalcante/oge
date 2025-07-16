@@ -1,0 +1,24 @@
+.gamecard {
+  align-items: center;
+  background-color: var(--color-green-dark);
+  border-radius: var(--radius-medium);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing_inset-xs);
+  justify-content: center;
+  padding: var(--spacing_inset-xs);
+
+  img {
+    border-radius: var(--radius-medium);
+    height: auto;
+    width: 200px;
+  }
+
+  a {
+    background-color: red;
+    border-radius: var(--radius-medium);
+    color: var(--color-pure-white);
+    font-weight: var(--font-weight-medium);
+    padding: var(--spacing_inset-nano) var(--spacing_inset-xs);
+  }
+}

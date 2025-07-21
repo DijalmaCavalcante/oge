@@ -1,9 +1,11 @@
- import Gamecard from '@elements/gamecard'
+ import Container from '@elements/container'
  
  export default function cidadedorme () {
   return (
-    <Gamecard>
-
-    </Gamecard>
+    <Container>
+      <button id='assassino'>Assassino</button>
+      <button id='anjo'>Anjo</button>
+      <button id='detetive'>Detetive</button>
+    </Container>
   )
  }

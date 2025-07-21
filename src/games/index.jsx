@@ -9,7 +9,7 @@ export default function Home() {
           <Gamecard key={game.id}>
             <img src={game.image} />
             <h2>{game.name}</h2>
-              <Link to={game.page}>Acessar</Link>
+            <Link to={game.page}>Acessar</Link>
           </Gamecard>
         ))} 
     </main>

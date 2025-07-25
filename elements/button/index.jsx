@@ -1,9 +1,9 @@
 import './style.css'
 
-export default function button () {
+export default function button ({ children, ...props }) {
   return (
-    <div>
-
-    </div>
+    <button className='button' {...props}>
+      {children}
+    </button>
   )
 }

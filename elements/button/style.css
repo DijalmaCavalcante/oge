@@ -1,0 +1,7 @@
+.button {
+  background-color: red;
+  border-radius: var(--radius-medium);
+  cursor: pointer;
+  padding: var(--spacing_inset-nano) var(--spacing_inset-xs);
+  width: 100%;
+}

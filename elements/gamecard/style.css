@@ -1,6 +1,6 @@
 .gamecard {
   align-items: center;
-  background-color: var(--color-green-dark);
+  background-color: var(--card-bg);
   border-radius: var(--radius-medium);
   display: flex;
   flex-direction: column;

@@ -1,18 +1,18 @@
 import './style.css'
-import Backheader from '@elements/backheader'
-import Button from '@elements/button'
-import Container from '@elements/container'
-
-import somAssassino from './assassino.mp3'
-import somAnjo from './anjo.mp3'
-import somDetetive from './detetive.mp3'
 import { useState } from 'react'
+import Backheader from '@elements/backheader'
+import Container from '@elements/container'
+import Gamecard from '@elements/gamecard'
+import somAnjo from './anjo.mp3'
+import somAssassino from './assassino.mp3'
+import somDetetive from './detetive.mp3'
 
 export default function cidadedorme () {
   const [audioAtual, setAudioAtual] = useState(null)
+  const [somAtual, setSomAtual] = useState(null)
 
   function playOrPause(som) {
-    if (audioAtual && audioAtual.src === som && !audioAtual.paused) {
+    if (audioAtual && somAtual === som && !audioAtual.paused) {
       audioAtual.pause()
       return
     }
@@ -24,6 +24,7 @@ export default function cidadedorme () {
     const novoAudio = new Audio(som)
     novoAudio.play()
     setAudioAtual(novoAudio)
+    setSomAtual(som)
   }
 
   return (
@@ -31,9 +32,15 @@ export default function cidadedorme () {
       <Backheader />
       <div className='cidadedorme__container'>
         <Container>
-          <Button id='assassino' onClick={() => playOrPause(somAssassino)}>Assassino</Button>
-          <Button id='anjo' onClick={() => playOrPause(somAnjo)}>Anjo</Button>
-          <Button id='detetive' onClick={() => playOrPause(somDetetive)}>Detetive</Button>
+          <Gamecard color='green'>
+            <button id='assassino' onClick={() => playOrPause(somAssassino)}>Assassino</button>
+          </Gamecard>
+          <Gamecard color='green'>
+            <button id='anjo' onClick={() => playOrPause(somAnjo)}>Anjo</button>
+          </Gamecard>
+          <Gamecard color='green'>
+            <button id='detetive' onClick={() => playOrPause(somDetetive)}>Detetive</button>
+          </Gamecard>
         </Container>
       </div>
     </div>

@@ -22,3 +22,7 @@
     padding: var(--spacing_inset-nano) var(--spacing_inset-xs);
   }
 }
+
+.gamecard[pointer="true"] {
+  cursor: pointer;
+}

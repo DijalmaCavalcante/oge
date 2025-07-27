@@ -13,3 +13,15 @@
     color: var(--color-green);
   }
 }
+
+@media (width >= 768px) {
+  .backheader {
+    padding: var(--spacing_inset-md);
+  }
+}
+
+@media (width >= 1280px) {
+  .backheader {
+    padding: var(--spacing_inset-xs) var(--spacing-xxxl);
+  }
+}

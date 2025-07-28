@@ -1,12 +1,38 @@
-# React + Vite
+# OGE - Organization Games Entertainment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+OGE (Organization Games Entertainment) é um site projetado para **facilitar a organização e a experiência de diversos jogos**. Através de ferramentas interativas, como botões que emitem sons específicos para o jogo "Cidade Dorme", o projeto busca otimizar a jogabilidade e oferecer recursos úteis para jogadores.
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Sobre o Projeto
 
-## Expanding the ESLint configuration
+O **OGE** nasceu da necessidade de simplificar a vida das pessoas durante os jogos. Nosso objetivo é fornecer um conjunto de ferramentas que tornem a organização e a execução dos jogos mais fluidas e divertidas. No futuro, uma das metas é incluir um **sorteador de times** avançado, capaz de formar equipes equilibradas considerando o número de jogadores, número de times e até mesmo o nível de habilidade dos participantes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br />
+
+## 🚀 Tecnologias e Ferramentas
+
+O desenvolvimento do OGE é focado na performance e na simplicidade, utilizando as seguintes tecnologias:
+
+* **Linguagens:** HTML, CSS, JavaScript
+* **Framework/Biblioteca:** React
+* **Ferramentas de Build:** Vite, Bun
+* **Estilização:** Estilo próprio, com estrutura semelhante ao Tailwind CSS (sem uso da biblioteca Tailwind)
+* **Banco de Dados:** Atualmente não utilizado.
+* **Hospedagem:** Cloudflare Pages
+
+<br />
+
+## 🧱 Estrutura e Componentes
+
+Apesar de não haver componentes "principais" definidos no momento, o projeto OGE possui uma estrutura de pastas bem organizada para facilitar o desenvolvimento e a manutenção:
+
+* `elements/`: Contém componentes reutilizáveis, como `Gamecard`, `Container`, etc., promovendo a modularidade.
+* `services/`: Futuramente, abrigará integrações com serviços externos (ex: Supabase).
+* `.vscode/`: Inclui configurações e atalhos de importação otimizados. Por exemplo, digitar `@elements/container` automaticamente gera a importação `import container from '@elements/container'`.
+
+<br />
+
+## 📌 Outras Observações
+
+O OGE é um **projeto pessoal** e está **em constante desenvolvimento**. Novas ideias e funcionalidades são implementadas conforme surgem, buscando sempre aprimorar a experiência dos usuários.

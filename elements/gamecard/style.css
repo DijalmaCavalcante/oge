@@ -1,17 +1,19 @@
 .gamecard {
   align-items: center;
   background-color: var(--card-bg);
-  border-radius: var(--radius-medium);
+  border-radius: var(--card-radius);
+  cursor: var(--card-pointer);
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--card-direction);
   gap: var(--spacing_inset-xs);
-  justify-content: center;
+  justify-content: var(--card-justify);
   padding: var(--spacing_inset-xs);
+  width: var(--card-width);
 
   img {
     border-radius: var(--radius-medium);
     height: auto;
-    width: 200px;
+    width: var(--card-image-size);
   }
 
   a {
@@ -21,8 +23,4 @@
     font-weight: var(--font-weight-medium);
     padding: var(--spacing_inset-nano) var(--spacing_inset-xs);
   }
-}
-
-.gamecard[pointer="true"] {
-  cursor: pointer;
 }

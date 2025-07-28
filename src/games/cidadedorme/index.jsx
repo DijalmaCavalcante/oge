@@ -35,17 +35,17 @@ export default function cidadedorme () {
       <Backheader />
       <div className='cidadedorme__container'>
         <Container>
-          <Gamecard color='green' pointer="true">
+          <Gamecard onClick={() => playOrPause(somAssassino)} color='green' pointer row imageSize='nano' wide justify='start'>
             <img src={imageAssassino} />
-            <button id='assassino' onClick={() => playOrPause(somAssassino)}>Assassino</button>
+            <span>Assassino</span>
           </Gamecard>
-          <Gamecard color='green' pointer="true">
-            <img src={imageAssassino} />
-            <button id='anjo' onClick={() => playOrPause(somAnjo)}>Anjo</button>
+          <Gamecard onClick={() => playOrPause(somAnjo)} color='green' pointer row imageSize='nano' wide justify='start'>
+            <img src={imageAnjo} />
+            <span>Anjo</span>
           </Gamecard>
-          <Gamecard color='green' pointer="true">
-            <img src={imageAssassino} />
-            <button id='detetive' onClick={() => playOrPause(somDetetive)}>Detetive</button>
+          <Gamecard onClick={() => playOrPause(somDetetive)} color='green' pointer row imageSize='nano' wide justify='start'>
+            <img src={imageDetetive} />
+            <span>Detetive</span>
           </Gamecard>
         </Container>
       </div>

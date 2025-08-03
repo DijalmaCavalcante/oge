@@ -2,6 +2,7 @@
   align-items: center;
   background-color: var(--card-bg);
   border-radius: var(--card-radius);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
   cursor: var(--card-pointer);
   display: flex;
   flex-direction: var(--card-direction);
@@ -17,10 +18,16 @@
   }
 
   a {
-    background-color: red;
-    border-radius: var(--radius-medium);
-    color: var(--color-pure-white);
+    background-color: var(--card-linkBg);
+    border-radius: var(--radius-small);
+    color: var(--color-white);
     font-weight: var(--font-weight-medium);
     padding: var(--spacing_inset-nano) var(--spacing_inset-xs);
+    text-align: center;
+    width: 100%;
+
+    &:hover {
+      background-color: var(--card-linkBg-hover);
+    }
   }
 }

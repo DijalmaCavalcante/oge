@@ -1,9 +1,9 @@
 .container {
-  align-items: center;
+  align-items: var(--container-align);
   display: flex;
+  flex-direction: var(--container-direction);
   gap: var(--spacing_inset-xs);
-  justify-content: center;
+  justify-content: var(--container-justify);
   padding: var(--spacing_inset-xs);
   width: 1280px;
-  flex-direction: var(--container-direction);
 }

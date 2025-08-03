@@ -13,12 +13,14 @@ export default function gamecard (props) {
 
   const style = {
     '--card-bg': `var(--color-${props.color || 'master'})`,
-    '--card-pointer': `${props.pointer ? 'pointer' : ''}`,
-    '--card-radius': `var(--${props.radius || 'radius-medium'}`,
-    '--card-justify': `${props.justify || 'center'}`,
     '--card-direction': `${props.row || 'column'}`,
     '--card-image-size': `${imagesize()}`,
-    '--card-width': `${props.wide ? '100%' : 'auto'}`
+    '--card-justify': `${props.justify || 'center'}`,
+    '--card-pointer': `${props.pointer ? 'pointer' : ''}`,
+    '--card-radius': `var(--${props.radius || 'radius-medium'}`,
+    '--card-width': `${props.wide ? '100%' : 'auto'}`,
+    '--card-linkBg': `var(--color-${props.linkBg || 'purple'})`,
+    '--card-linkBg-hover': `var(--color-${props.linkBgHover || 'purple-darker'})`,
   }
 
   return (

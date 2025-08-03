@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       {gamelist.map((game) => (
-        <Gamecard key={game.id}>
+        <Gamecard key={game.id} color='offwhite'>
           <img src={game.image} />
           <h2>{game.name}</h2>
           <Link to={game.page}>Acessar</Link>

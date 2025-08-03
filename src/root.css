@@ -57,15 +57,15 @@ button {
   --color-green-lighter: #7FDC9D;
   --color-green-lightest: #B2EFC7;
 
-  --color-blue-darker: #0F3C5E;
-  --color-blue-dark: #145A8D;
-  --color-blue: #1C7ED6;
-  --color-blue-light: #4C9DE5;
-  --color-blue-lighter: #7FC0F1;
-  --color-blue-lightest: #B3DBF9;
+  --color-purple-lighter:#b5aeff;
+  --color-purple-light:#8b7eff;
+  --color-purple:#614feb;
+  --color-purple-dark:#4d3fbd;
+  --color-purple-darker:#3c3190;
 
-  --color-pure-white: #fff;
-  --color-pure-black: #000;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-offwhite: #FFF8E1;
 }
 
 :root {

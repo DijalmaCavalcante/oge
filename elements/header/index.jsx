@@ -1,9 +1,10 @@
 import './style.css'
+import oge from './oge.webp'
 
 export default function Header() {
   return (
     <header>
-      <span>OGEs</span>
+      <img src={oge} />
     </header>
   )
 }

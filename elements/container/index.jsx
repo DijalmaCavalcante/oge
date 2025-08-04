@@ -3,8 +3,8 @@ import './style.css'
 export default function container (props) {
   const style = {
     '--container-direction': `${props.row || 'column'}`,
-    '--container-justify': `${props.justify || ''}`,
-    '--container-align': `${props.align || ''}`
+    '--container-justify': `${props.justify || 'center'}`,
+    '--container-align': `${props.align || 'center'}`
   }
 
   return (

@@ -1,11 +1,6 @@
-main {
-  padding-top: var(--spacing_inset-giant);
-}
-
 .home__container {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
-  background-color: var(--color-master);
+  padding-top: var(--spacing_inset-md);
 }

@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <Header />
       <div className="home__container">
-        <Container align='start'>
+        <Container>
           <Games />
         </Container>
       </div>

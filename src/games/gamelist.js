@@ -6,7 +6,7 @@ const gamelist = [
     name: 'Cidade Dorme',
     image: cidadedorme,
     page: '/cidade-dorme'
-  }
+  },
 ]
 
 export default gamelist

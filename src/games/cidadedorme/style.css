@@ -4,4 +4,9 @@
   height: 100vh;
   justify-content: center;
   width: 100%;
+
+  span {
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+  }
 }
